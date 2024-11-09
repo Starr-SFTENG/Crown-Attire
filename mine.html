@@ -1,0 +1,20 @@
+<?php
+$i = 1;
+while ($i <= 5) {
+echo str_repeat("* ", $i) . "<br>";
+$i++;
+}
+?>
+
+
+<script>
+    function displayAsterisks() {
+let maxAsterisks = parseInt(prompt("Enter the maximum number of asterisks in a row:"));
+let output = "";
+for (let i = 1; i <= maxAsterisks; i++) {
+output += "* ";
+}
+document.getElementById("output").innerText = output;
+}
+
+</script>

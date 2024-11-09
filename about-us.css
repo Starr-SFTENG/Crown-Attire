@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    color: gold; /* Highlighting the active link */
+}
+
+.about {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.about h2 {
+    color: darkbrown; /* Using dark brown for the section heading */
+}
+.team {
+    padding: 40px;
+    text-align: center;
+}
+
+.team h2 {
+    color: darkbrown; /* Use dark brown for the section heading */
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between team members */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.team-member {
+    background-color: white;
+    border: 1px solid darkbrown; /* Optional: Border around each member */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px;
+    width: 200px; /* Set a fixed width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Shadow effect */
+}
+
+.team-member img {
+    width: 100%; /* Make images responsive */
+    border-radius: 10px; /* Round the corners of images */
+}
+
+.team-member h3 {
+    margin: 10px 0 5px; /* Adjust spacing for names */
+    color: black; /* Name color */
+}
+
+.team-member p {
+    color: darkbrown; /* Position color */
+    margin: 0;
+}
+
+
+footer {
+    background-color: rgb(81, 60, 3);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

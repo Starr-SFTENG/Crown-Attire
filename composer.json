@@ -1,0 +1,14 @@
+{
+    "require": {
+        "pay-now/paynow-php-sdk": "^2.4",
+        "symfony/http-client": "^6.0",
+        "nyholm/psr7": "^1.8",
+        "paypal/paypal-server-sdk": "0.5.1",
+        "stripe/stripe-php": "^16.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
